@@ -1,0 +1,40 @@
+GREC MIND — CATÁLOGO EDITABLE
+============================
+
+ARCHIVOS
+- index.html: estructura de la página. Puedes editar textos y secciones.
+- styles.css: colores, tamaños, tipografías y diseño adaptable a celular.
+- catalog.js: aquí cambias el WhatsApp y agregas/actualizas prendas.
+- app.js: funcionamiento de filtros, tarjetas y enlaces de WhatsApp. No necesitas tocarlo para actualizar productos.
+- assets/logo-grec-mind.jpg: tu logo.
+- assets/productos/: coloca aquí las fotos de tus prendas.
+
+CÓMO AGREGAR PRODUCTOS
+1. Copia las fotos de tus prendas dentro de assets/productos/.
+2. Abre catalog.js con un editor de texto (por ejemplo, Visual Studio Code).
+3. Reemplaza 519XXXXXXXX por tu WhatsApp completo con código de país, solo números. Para Perú empieza por 51.
+4. Dentro de PRODUCTS, copia el ejemplo y completa nombre, categoría, precio, imagen y descripción.
+5. Guarda los cambios y abre index.html en tu navegador para revisar el catálogo.
+
+Ejemplo:
+const PRODUCTS = [
+  {
+    name: "Vestido Aura",
+    category: "Vestidos",
+    price: 89.90,
+    image: "assets/productos/vestido-aura.jpg",
+    description: "Tallas S, M y L"
+  }
+];
+
+Para agregar otra prenda, pon una coma después de la llave de cierre del producto anterior y pega otro bloque.
+
+QUÉ NECESITAS PARA PUBLICARLO
+- Un número de WhatsApp Business o WhatsApp de atención.
+- Fotos de las prendas (idealmente verticales, bien iluminadas y con fondo limpio).
+- Nombre, categoría, precio, tallas y colores de cada prenda.
+- Información de envíos, métodos de pago, cambios/devoluciones y redes sociales, si deseas mostrarlos.
+- Un servicio de alojamiento web. Puedes usar GitHub Pages (gratuito) o un hosting propio. Para GitHub Pages, sube el contenido de esta carpeta a un repositorio y activa Pages en Settings > Pages.
+
+IMPORTANTE
+Esta es una plantilla inicial inspirada en la estructura del catálogo de referencia (portada, colección, filtros, productos y contacto directo). No es una copia exacta del código ni del diseño original. La plantilla está lista para editar, pero aún faltan tus productos y datos reales para que quede publicada y completa.

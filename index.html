@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f2ef">
+  <meta name="description" content="Descubre la colección de Grec Mind. Moda femenina y atención directa por WhatsApp.">
+  <title>Grec Mind | Catálogo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Grec Mind, inicio">
+      <img src="assets/logo-grec-mind.jpg" alt="Logo Grec Mind">
+      <span>GREC MIND</span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#nosotros">Nosotros</a>
+      <a class="nav-contact" id="navWhatsapp" href="#">Hablar por WhatsApp ↗</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">GREC MIND · MODA FEMENINA</p>
+        <h1>Tu estilo,<br><em>tu esencia.</em></h1>
+        <p class="hero-description">Prendas para expresar quién eres. Encuentra tus favoritos y consulta disponibilidad directamente con nosotras.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#catalogo">Explorar colección <span>↓</span></a>
+          <a class="text-link" id="heroWhatsapp" href="#">Quiero asesoría ↗</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Espacio para fotografía de la colección">
+        <div class="art-frame"><span class="art-kicker">NEW COLLECTION</span><span class="art-title">Grec<br>Mind</span><span class="art-note">VISTE A TU MANERA</span></div>
+        <div class="art-stamp">GM<br>✳</div>
+      </div>
+      <div class="hero-bottom"><span>CATÁLOGO ONLINE</span><span>DESCUBRE · ELIGE · DISFRUTA</span></div>
+    </section>
+
+    <section class="catalog-section" id="catalogo">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECCIÓN GREC MIND</p><h2>Encuentra tu <em>estilo</em></h2></div>
+        <p>Explora nuestras prendas y escríbenos para consultar tallas, colores y disponibilidad.</p>
+      </div>
+      <div class="filters" id="filters" aria-label="Filtrar productos">
+        <button class="filter active" data-category="Todos">Todos</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="catalog-note">¿No encuentras lo que buscas? <a id="catalogWhatsapp" href="#">Escríbenos y te ayudamos ↗</a></p>
+    </section>
+
+    <section class="about" id="nosotros">
+      <div class="about-mark">GM</div>
+      <div><p class="eyebrow">UN TOQUE DE GREC MIND</p><h2>La moda es una forma<br>de <em>sentirte tú.</em></h2><p>Queremos acompañarte a encontrar prendas que vayan contigo. Consulta con nosotras y recibe atención personalizada.</p><a class="button button-light" id="aboutWhatsapp" href="#">Contáctanos por WhatsApp ↗</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="footer-brand" href="#inicio">GREC MIND</a>
+    <span>© <span id="year"></span> Grec Mind. Todos los derechos reservados.</span>
+    <a id="footerWhatsapp" href="#">Atención por WhatsApp ↗</a>
+  </footer>
+  <script src="catalog.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
