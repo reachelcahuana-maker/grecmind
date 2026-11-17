@@ -1,7 +1,7 @@
 /*
   EDITA ESTE ARCHIVO PARA CAMBIAR LOS DATOS DE TU TIENDA.
   WhatsApp: escribe el número con código de país, solo números.
-  Perú: 51 + tu número. Ejemplo de formato: 519XXXXXXXX (reemplázalo por el real).
+  Perú: 51 + 967964900. 
 */
 const STORE = {
   name: "Grec Mind",
