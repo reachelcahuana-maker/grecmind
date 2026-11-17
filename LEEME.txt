@@ -12,7 +12,7 @@ ARCHIVOS
 CÓMO AGREGAR PRODUCTOS
 1. Copia las fotos de tus prendas dentro de assets/productos/.
 2. Abre catalog.js con un editor de texto (por ejemplo, Visual Studio Code).
-3. Reemplaza 519XXXXXXXX por tu WhatsApp completo con código de país, solo números. Para Perú empieza por 51.
+3. Reemplaza 967964900 por tu WhatsApp completo con código de país, solo números. Para Perú empieza por 51.
 4. Dentro de PRODUCTS, copia el ejemplo y completa nombre, categoría, precio, imagen y descripción.
 5. Guarda los cambios y abre index.html en tu navegador para revisar el catálogo.
 
